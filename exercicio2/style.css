@@ -4,28 +4,28 @@
     font-family: 'Helvetica', sans-serif;
   }
   
-  header, .a{
+  header{
     height: 50px;
     background-color: #5e5e5e;
-    width: 100vw;
+    width: vw;
     text-align: center;
     color: white;
   }
   
-  main, .b{
-    height: 90vh;
+  main{
+    height: 150vh;
     display: flex;
     flex-direction: row;
     align-items: stretch;
   }
   
-  section, .c{
+  section{
     background-color: #d4d4d4;
     width: 100%;
     padding: 20px 20px 0 20px;
   }
   
-  article, .d{
+  article{
     background-color: #dedede;
     height: 25%;
     width: 100%;
@@ -34,7 +34,7 @@
     padding-left: 1%;
   }
   
-  footer, .e{
+  footer{
     background-color: #242424;
     height: 50px;
     padding: 20px 0 0 20px;
